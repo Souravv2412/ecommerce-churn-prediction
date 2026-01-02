@@ -19,24 +19,25 @@ This project analyzes customer churn behavior for an e-commerce platform using *
 
 ---
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
-📦 ecommerce-churn-prediction-analysis
-├── 📂 data
-│ └── E-Commerce Churn Data.csv # Raw dataset (5,630 customers)
-├── 📂 notebooks
-│ └── churn_analysis.ipynb # Complete analysis (EDA + Modeling)
-├── 📂 images # Visualizations from analysis
-│ ├── churn_distribution.png
-│ ├── feature_importance.png
-│ ├── tenure_churn_trend.png
-│ ├── cashback_impact.png
-│ ├── complaints_impact.png
-│ └── roc_curve.png
-├── 📄 Churn Analysis Lab 1.pdf # Full analysis report
-├── 📄 README.md # This file
-├── 📄 requirements.txt # Python dependencies
-└── 📄 LICENSE # MIT License
+```text
+ecommerce-churn-prediction-analysis/
+├── data/
+│   └── E-Commerce Churn Data.csv      # Raw dataset (5,630 customers)
+├── notebooks/
+│   └── churn_analysis.ipynb          # Full EDA and ML Modeling
+├── images/                           # Visualizations for README/Report
+│   ├── churn_distribution.png
+│   ├── feature_importance.png
+│   ├── roc_curve.png
+│   └── ...                           # (Other impact plots)
+├── Churn Analysis Lab 1.pdf          # Final summary report
+├── README.md                         # Project documentation
+├── requirements.txt                  # Python dependencies
+└── LICENSE                           # MIT License
+
+```
 
 ---
 
@@ -147,7 +148,32 @@ y = data['Churn']
 # Model Training
 tree_model = DecisionTreeClassifier(max_depth=5, random_state=42)
 tree_model.fit(X_train, y_train)
+```
 
+🚀 How to Run This Project
+```
+# 1. Clone repository
+git clone https://github.com/yourusername/churn-analytics.git
+cd churn-analytics
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the analysis
+jupyter notebook notebooks/Churn_Analysis_Full.ipynb
+
+```
+
+Dependencies:
+```
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+jupyter>=1.0.0
+
+```
 
 ## 📊 Skills Demonstrated
 
