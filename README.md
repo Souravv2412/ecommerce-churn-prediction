@@ -1,8 +1,8 @@
 # 📊 E-Commerce Customer Churn Analysis & Prediction
 
-![Python](https://img.shields.io/badge/Python-3.9%252B-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%2520Analysis-orange)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%2520Models-green)
+![Python](https://img.shields.io/badge/Python-3.9252B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data2520Analysis-orange)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML2520Models-green)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
 ---
