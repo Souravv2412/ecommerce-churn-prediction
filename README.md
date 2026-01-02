@@ -44,7 +44,7 @@ ecommerce-churn-prediction-analysis/
 ## 🔍 Key Insights & Visualizations
 
 ### 📈 Churn Distribution
-![Churn Distribution]([https://via.placeholder.com/600x300/4A90E2/FFFFFF?text=Churn+Distribution+Chart](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Churn%20Distribution.png))  
+![Churn Distribution](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Churn%20Distribution.png)
 83.2% active vs 16.8% churned customers
 
 ### 📊 Top Churn Drivers (Feature Importance)
