@@ -48,32 +48,32 @@ ecommerce-churn-prediction-analysis/
 83.2% active vs 16.8% churned customers
 
 ### 📊 Top Churn Drivers (Feature Importance)
-![Feature Importance]([https://via.placeholder.com/600x300/50B848/FFFFFF?text=Feature+Importance+Chart](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Feature%20Important.png))
+![Feature Importance](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Feature%20Important.png)
 
 - **Tenure** – Most important: 50+% weight  
 - **Complaints** – Strong early warning signal  
 - **CashbackAmount** – Retention tool effectiveness  
 
 ### 📉 Churn Rate by Tenure – Critical First 3 Months
-![Tenure vs Churn]([https://via.placeholder.com/600x300/F5A623/FFFFFF?text=Tenure+vs+Churn+Rate](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Churn%20Rate%20by%20Tenure.png))
+![Tenure vs Churn](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Churn%20Rate%20by%20Tenure.png)
 
 - 0-3 months: ~50% churn rate  
 - After 6 months: Dramatic drop  
 - After 12 months: Minimal churn (<5%)
 
 ### 💰 Cashback Reduces Churn by 50%
-![Cashback Impact]([https://via.placeholder.com/600x300/7ED321/FFFFFF?text=Cashback+Impact+on+Churn](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Cashback%20Reduces%20Churn%20by%2050%25.png))  
+![Cashback Impact](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Cashback%20Reduces%20Churn%20by%2050%25.png)
 
 - Higher cashback tiers show significantly lower churn rates
 
 ### 🚨 Complaints = 80% Churn Risk
-![Complaints Impact]([https://via.placeholder.com/600x300/D0021B/FFFFFF?text=Complaints+Drive+Churn](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Complaint%20impact.png))  
+![Complaints Impact](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/Complaint%20impact.png)
 
 - With complaints: ~80% churn rate  
 - Without complaints: ~15% churn rate  
 
 ### 📊 ROC Curve – Model Performance
-![ROC Curve]([https://via.placeholder.com/600x300/9013FE/FFFFFF?text=ROC+Curve+AUC=0.88](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/ROG%20Curve.png))  
+![ROC Curve](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/images/ROG%20Curve.png) 
 
 - **AUC = 0.88** (Strong predictive power)
 
@@ -227,8 +227,8 @@ jupyter>=1.0.0
 
 **Your Name**  
 Data Analyst | Business Intelligence Specialist  
-[LinkedIn Profile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sourav2312/)) | singh.s.deep800@gmail.com 
-[Portfolio]([https://yourportfolio.com](https://souravv2412.github.io/Souravv2412-Souravdeep-Portfolio-Website/))  
+[LinkedIn Profile](https://www.linkedin.com/in/sourav2312/) | singh.s.deep800@gmail.com 
+[Portfolio](https://souravv2412.github.io/Souravv2412-Souravdeep-Portfolio-Website/) 
 
 ---
 
@@ -248,7 +248,7 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 
 ## 🔗 Quick Links
 
-- 📊 [View Full Analysis Notebook]([notebooks/Churn_Analysis_Full.ipynb](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/notebook/Churn%20Analysis%20Lab%201.ipynb))  
-- 📄 [Download Project Report]([Churn%20Analysis%20Lab%201.pdf](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/Churn%20Analysis%20Lab%201.pdf))  
+- 📊 [View Full Analysis Notebook](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/notebook/Churn%20Analysis%20Lab%201.ipynb)
+- 📄 [Download Project Report](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/Churn%20Analysis%20Lab%201.pdf)
 - 🎤 [View Business Presentation](presentation/Churn_Analysis_Presentation.pptx)  
 
