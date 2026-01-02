@@ -21,26 +21,22 @@ This project analyzes customer churn behavior for an e-commerce platform using *
 
 ## 📁 Repository Structure
 
-Churn-Analytics-Project/
-├── data/
-│ └── E-Commerce Churn Data.csv # Raw dataset
-├── notebooks/
-│ └── Churn_Analysis_Full.ipynb # Complete analysis (EDA + Modeling)
-├── presentation/
-│ └── Churn_Analysis_Presentation.pptx # Business presentation
-├── images/ # Visuals from analysis
+📦 ecommerce-churn-prediction-analysis
+├── 📂 data
+│ └── E-Commerce Churn Data.csv # Raw dataset (5,630 customers)
+├── 📂 notebooks
+│ └── churn_analysis.ipynb # Complete analysis (EDA + Modeling)
+├── 📂 images # Visualizations from analysis
 │ ├── churn_distribution.png
 │ ├── feature_importance.png
 │ ├── tenure_churn_trend.png
 │ ├── cashback_impact.png
 │ ├── complaints_impact.png
 │ └── roc_curve.png
-├── Churn Analysis Lab 1.pdf # Full report (exported notebook)
-├── README.md # This file
-├── requirements.txt # Dependencies
-└── LICENSE # MIT License
-
-
+├── 📄 Churn Analysis Lab 1.pdf # Full analysis report
+├── 📄 README.md # This file
+├── 📄 requirements.txt # Python dependencies
+└── 📄 LICENSE # MIT License
 
 ---
 
