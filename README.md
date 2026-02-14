@@ -31,22 +31,47 @@ This project analyzes customer churn behavior for an e-commerce platform using *
 ## 📁 Project Structure
 
 ```text
-ecommerce-churn-prediction/
-├── data/
-│   └── E-Commerce Churn Data.csv          # Raw dataset (5,630 customers)
-├── notebooks/
-│   └── churn_analysis.ipynb               # Full EDA + ML Modeling
-├── images/                                # Key visualizations
-│   ├── churn_distribution.png
-│   ├── feature_importance.png
-│   ├── tenure_churn_critical.png          # 50% first 3 months
-│   ├── 90day_roadmap.png                  # Business strategy
-│   ├── high_risk_segments.png             # Customer segments
-│   ├── retention_recommendations.png      # Action plan
-│   └── roc_curve.png
-├── presentation/                          # Stakeholder deck
-│   └── Churn_Analysis_Presentation.pptx
-├── Churn Analysis Lab 1.pdf               # Technical report
+E-Commerce Churn Prediction/
+├── Business Recommendation/              # Strategic insights & roadmaps
+│   ├── 90-Days Implementation Roadmap.jpg
+│   ├── Marketing Strategy.jpg
+│   └── Retention Recommendations.jpg
+├── data/                                  # Dataset files
+│   ├── churn_predictions.csv
+│   ├── churn_predictions.hyper            # Tableau extract
+│   ├── E-Commerce Churn Data.csv          # Raw dataset (5,630 customers)
+│   ├── E-Commerce_Cleaned.csv             # Preprocessed data
+│   ├── E-Commerce_Cleaned.hyper           # Tableau extract
+│   ├── feature_importance.csv
+│   ├── feature_importance.hyper           # Tableau extract
+│   ├── roc_curve.csv
+│   └── roc_curve.hyper                    # Tableau extract
+├── images/                                # Key visualizations (19 images)
+│   ├── 24f41d6d-e23f-4319-8f7f-440f6a9f3698.jpg
+│   ├── cancel.png
+│   ├── Cashback Reduces Churn by 50%.png
+│   ├── Churn Distribution.png
+│   ├── Churn Rate by Tenure.png
+│   ├── churn rate.png
+│   ├── Complaint impact.png
+│   ├── download.png
+│   ├── eccomerce logo.jpg
+│   ├── eccomerce.png
+│   ├── Ecomerce tongle.png
+│   ├── eCommerce-logo.png
+│   ├── Feature Important.png
+│   ├── Filter.png
+│   ├── high risk customer.png
+│   ├── model Precision.png
+│   ├── model tongle.png
+│   ├── revenue Loss.png
+│   └── ROG Curve.png
+├── notebook/                              # Analysis notebooks
+│   └── [Jupyter notebooks]
+├── ppt/                                   # Presentation files
+│   └── [PowerPoint presentations]
+├── tableau/                               # Tableau workbooks
+│   └── [Tableau files]
 ├── README.md
 └── requirements.txt
 ```
@@ -57,7 +82,7 @@ ecommerce-churn-prediction/
 
 ### 1️⃣ The New Customer Crisis (Critical Finding)
 
-![Tenure Churn Analysis](images/tenure_churn_critical.png)
+![Tenure Churn Analysis](images/Churn%20Rate%20by%20Tenure.png)
 
 - **0-3 months:** ~50% churn rate
 - **4-6 months:** Drops to ~7.5%
@@ -69,7 +94,7 @@ ecommerce-churn-prediction/
 
 ### 2️⃣ Top Churn Drivers (Model Insights)
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/Feature%20Important.png)
 
 | Rank | Feature | Importance | Business Meaning |
 |------|---------|------------|------------------|
@@ -83,7 +108,7 @@ ecommerce-churn-prediction/
 
 ### 3️⃣ High-Risk Customer Segments
 
-![High-Risk Segments](images/high_risk_segments.png)
+![High-Risk Segments](images/high%20risk%20customer.png)
 
 | Segment | Profile | Churn Risk | Strategy |
 |---------|---------|------------|----------|
@@ -95,7 +120,7 @@ ecommerce-churn-prediction/
 
 ## 📊 Strategic Recommendations
 
-![Retention Recommendations](images/retention_recommendations.png)
+![Retention Recommendations](Business%20Recommendation/Retention%20Recommendations.jpg)
 
 ### 🎯 Four-Pillar Retention Strategy
 
@@ -110,7 +135,7 @@ ecommerce-churn-prediction/
 
 ### 🗓️ 90-Day Implementation Roadmap
 
-![90-Day Roadmap](images/90day_roadmap.png)
+![90-Day Roadmap](Business%20Recommendation/90-Days%20Implementation%20Roadmap.jpg)
 
 - **Phase 1 (Month 1):** Setup → Deploy complaint system, train team
 - **Phase 2 (Month 2):** Launch → Onboarding program, early warnings
@@ -136,7 +161,7 @@ ecommerce-churn-prediction/
 - ✅ Strong AUC (0.88) = reliable predictions
 - ✅ Identifies 52% of future churners in advance
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](images/ROG%20Curve.png)
 
 ---
 
@@ -173,7 +198,7 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
 # 1. Load & Clean
-data = pd.read_csv("E-Commerce Churn Data.csv")
+data = pd.read_csv("data/E-Commerce Churn Data.csv")
 data.fillna(data.median(numeric_only=True), inplace=True)  # Preserve outliers
 
 # 2. Feature Engineering
@@ -254,9 +279,9 @@ MIT License - see LICENSE file
 | Resource | Link |
 |----------|------|
 | 📊 Live Dashboard | [View Tableau Public](https://public.tableau.com/views/E-CommerceChurnAnalysisRetentionStrategy/ExecutiveOverview) |
-| 📓 Full Analysis | [Jupyter Notebook](notebooks/churn_analysis.ipynb) |
-| 📄 Technical Report | [PDF Report](Churn%20Analysis%20Lab%201.pdf) |
-| 🎤 Presentation | [PPT Deck](presentation/Churn_Analysis_Presentation.pptx) |
+| 📓 Full Analysis | [Jupyter Notebook](notebook/) |
+| 📈 Business Strategy | [Recommendations](Business%20Recommendation/) |
+| 🎨 Visualizations | [Images Gallery](images/) |
 
 ---
 
