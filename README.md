@@ -108,8 +108,6 @@ E-Commerce Churn Prediction/
 
 ### 3️⃣ High-Risk Customer Segments
 
-![High-Risk Segments](images/high%20risk%20customer.png)
-
 | Segment | Profile | Churn Risk | Strategy |
 |---------|---------|------------|----------|
 | Frustrated Newcomer | 0-3 months + Complaint | ~50% | 24h escalation SLA |
@@ -281,7 +279,6 @@ MIT License - see LICENSE file
 | 📊 Live Dashboard | [View Tableau Public](https://public.tableau.com/views/E-CommerceChurnAnalysisRetentionStrategy/ExecutiveOverview) |
 | 📓 Full Analysis | [Jupyter Notebook](notebook/) |
 | 📈 Business Strategy | [Recommendations](Business%20Recommendation/) |
-| 🎨 Visualizations | [Images Gallery](images/) |
 
 ---
 
