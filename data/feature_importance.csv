@@ -1,0 +1,11 @@
+Feature,Importance
+Tenure,0.52
+Complain,0.14
+NumberOfAddress,0.09
+DaySinceLastOrder,0.07
+CashbackAmount,0.04
+SatisfactionScore,0.03
+OrderCount,0.02
+CouponUsed,0.02
+HourSpendOnApp,0.01
+Gender_Male,0.01
