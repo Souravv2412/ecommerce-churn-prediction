@@ -278,7 +278,7 @@ MIT License - see LICENSE file
 |----------|------|
 | 📊 Live Dashboard | [View Tableau Public](https://public.tableau.com/views/E-CommerceChurnAnalysisRetentionStrategy/ExecutiveOverview) |
 | 📓 Full Analysis | [Jupyter Notebook](notebook/) |
-| 📈 Business Strategy | [Recommendations](Business%20Recommendation/) |
+| 📈 Business Strategy | [Recommendations]([Business%20Recommendation/](https://github.com/Souravv2412/ecommerce-churn-prediction/tree/main/Business%20Recomendation)) |
 
 ---
 
