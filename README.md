@@ -135,7 +135,7 @@ E-Commerce Churn Prediction/
 
 ### 🗓️ 90-Day Implementation Roadmap
 
-![90-Day Roadmap](Business%20Recommendation/90-Days%20Implementation%20Roadmap.jpg)
+![90-Day Roadmap](https://github.com/Souravv2412/ecommerce-churn-prediction/blob/main/Business%20Recomendation/90-Days%20Implementation%20Roadmap.jpg)
 
 - **Phase 1 (Month 1):** Setup → Deploy complaint system, train team
 - **Phase 2 (Month 2):** Launch → Onboarding program, early warnings
