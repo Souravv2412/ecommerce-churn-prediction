@@ -94,7 +94,7 @@ E-Commerce Churn Prediction/
 
 ### 2️⃣ Top Churn Drivers (Model Insights)
 
-![Feature Importance](images/Feature%20Important.png)
+![Feature Importance](images/Feature%20Importants.png)
 
 | Rank | Feature | Importance | Business Meaning |
 |------|---------|------------|------------------|
