@@ -120,7 +120,7 @@ E-Commerce Churn Prediction/
 
 ## 📊 Strategic Recommendations
 
-![Retention Recommendations](Business%20Recommendation/Retention%20Recommendations.jpg)
+![Retention Recommendations](Busines)
 
 ### 🎯 Four-Pillar Retention Strategy
 
