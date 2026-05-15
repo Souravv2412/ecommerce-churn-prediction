@@ -20,6 +20,9 @@ This project analyzes customer churn behavior for an e-commerce platform using *
 
 ---
 
+## Live Project
+- Live Demo: [https://souravv2412.github.io/Souravv2412-Souravdeep-Portfolio-Website/E-Commerce-Churn-Prediction/index.html](https://souravv2412.github.io/Souravv2412-Souravdeep-Portfolio-Website/E-Commerce-Churn-Prediction/index.html)
+
 ## 🚀 Live Dashboard
 
 [![View Interactive Dashboard](https://img.shields.io/badge/🔥-View%20Live%20Tableau%20Dashboard-orange?style=for-the-badge)](https://public.tableau.com/views/E-CommerceChurnAnalysisRetentionStrategy/ExecutiveOverview?:showVizHome=no&:embed=true)
